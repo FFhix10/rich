@@ -39,10 +39,20 @@ jupyter = ["ipywidgets"]
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.1"
 black = "^22.6"
+dependabot/pip/mypy-1.2.0
 mypy = "^1.2"
+
+mypy = "^0.971"
+ dependabot/pip/attrs-22.2.0
+pytest-cov = "^3.0.0"
+attrs = "^22.2.0"
+pre-commit = "^2.17.0"
+
+ master
 pytest-cov = "^4.0.0"
 attrs = "^21.4.0"
-pre-commit = "^2.17.0"
+pre-commit = "^2.21.0"
+ master
 asv = "^0.5.1"
 
 [build-system]
